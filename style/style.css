@@ -142,7 +142,7 @@ button {
     border-radius: 5px;
     background-color: rgba(50, 99, 205, 1);
     color: rgba(255, 255, 255, 1);
-
+    border: 0px;
 }
 
 input::-webkit-calendar-picker-indicator {
