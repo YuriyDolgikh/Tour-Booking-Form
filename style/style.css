@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 678px;
+    height: 1319px;
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 543px;
+    height: 1229px;
+    border: 1px solid rgba(50, 99, 205, 1);
+    gap: 5px;
+    font-family: Inter;
+}
+
+.header {
+    width: 511px;
+    height: 260px;
+    padding-top: 69px;
+    padding-bottom: 55px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: rgba(135, 206, 250, 1);
+    color: white;
+}
+
+.block-long {
+    display: flex;
+    flex-direction: column;
+    width: 512px;
+    height: 76;
+    gap: 10px;
+    padding-bottom: 10px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: rgba(128, 128, 128, 1);
+    box-sizing: border-box;
+}
+
+.block-short {
+    display: flex;
+    flex-direction: column;
+    width: 512px;
+    height: 121;
+    gap: 8px;
+    padding-bottom: 1px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: rgba(128, 128, 128, 1);
+    box-sizing: border-box;
+}
+
+.chkb-radio {
+    display: flex;
+    flex-direction: row;
+    width: 365px;
+    height: 121;
+    gap: 10px;
+    padding-bottom: 1px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+input,
+select {
+    display: flex;
+    flex-direction: column;
+    width: 512;
+    height: 34;
+    padding-top: 9px;
+    padding-right: 6px;
+    padding-bottom: 9px;
+    padding-left: 6px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgba(204, 204, 204, 1);
+}
+
+textarea {
+    display: flex;
+    flex-direction: column;
+    width: 512;
+    height: 56;
+    max-height: 56;
+    resize: none;
+    padding-top: 9px;
+    padding-right: 6px;
+    padding-bottom: 9px;
+    padding-left: 6px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgba(204, 204, 204, 1);
+    box-sizing: border-box;
+}
+
+.block-btn {
+    display: flex;
+    flex-direction: column;
+    width: 157px;
+    height: 42;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+}
+
+button {
+    width: 157;
+    height: 42;
+    padding-top: 13px;
+    padding-right: 4px;
+    padding-bottom: 13px;
+    padding-left: 4px;
+    border-radius: 5px;
+    background-color: rgba(50, 99, 205, 1);
+    color: rgba(255, 255, 255, 1);
+
+}
+
+input::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+select {
+    appearance: none;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <div>
+            <form class="frm" action="#">
+                <div class="header">
+                    <p>Tour Booking Form</p>
+                </div>
+                <div class="block-long">
+                    <label for="first-name">Name</label>
+                    <input type="text" id="first-name" placeholder="First Name">
+                    <input type="text" id="last-name" placeholder="Last Name">
+                </div>
+                <div class="block-long">
+                    <label for="e-mail">Email</label>
+                    <input type="email" id="e-mail" placeholder="name@mail.com">
+                </div>
+                <div class="block-long">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" placeholder="### ### ####">
+                </div>
+                <div class="block-long">
+                    <label for="date">When are you planning to vizit?</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="block-long">
+                    <label for="num">How many people are in your group?</label>
+                    <input type="number" id="num">
+                </div>
+                <div class="block-long">
+                    <label for="tours">Which tour are you most interested in?</label>
+                    <select name="tours" id="tour">\
+                        <option value="*Please select*" hidden>*Please select*</option>
+                        <option value="England">England</option>
+                        <option value="France">France</option>
+                        <option value="Spain">Spain</option>
+                    </select>
+                </div>
+
+                <div class="block-short">
+                    <label for="tours">What is the best way to contact you?</label>
+                    <div class="chkb-radio">
+                        <input type="checkbox" id="phone" name="phone">
+                        <label for="phone">Phone</label>
+                    </div>
+                    <div class="chkb-radio">
+                        <input type="checkbox" id="email" name="email">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="chkb-radio">
+                        <input type="checkbox" id="either" name="either">
+                        <label for="either">Either</label>
+                    </div>
+
+                </div>
+                <div class="block-short">
+                    <label for="times">If phone, when is the best time of day for a call-back?</label>
+                    <div class="chkb-radio">
+                        <input type="radio" id="m811" name="times" value="m811" checked />
+                        <label for="m811">8 - 11 AM</label>
+                    </div>
+                    <div class="chkb-radio">
+                        <input type="radio" id="d124" name="times" value="d124" />
+                        <label for="d124">12 - 4 PM</label>
+                    </div>
+                    <div class="chkb-radio">
+                        <input type="radio" id="e610" name="times" value="e610" />
+                        <label for="e610">6 - 10 PM</label>
+                    </div>
+                </div>
+
+                <div class="block-long">
+                    <label for="texta">Anything else we should know?</label>
+                    <textarea name="texta" rows="3" id="texta"></textarea>
+                </div>
+                <div class="block-btn">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
